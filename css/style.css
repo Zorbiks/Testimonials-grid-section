@@ -1,0 +1,80 @@
+/* barlow-semi-condensed-latin-500-normal */
+@font-face {
+	font-family: 'Barlow Semi Condensed';
+	font-style: normal;
+	font-display: swap;
+	font-weight: 500;
+	src: url(https://cdn.jsdelivr.net/fontsource/fonts/barlow-semi-condensed@latest/latin-500-normal.woff2) format('woff2');
+	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/* barlow-semi-condensed-latin-600-normal */
+@font-face {
+	font-family: 'Barlow Semi Condensed';
+	font-style: normal;
+	font-display: swap;
+	font-weight: 600;
+	src: url(https://cdn.jsdelivr.net/fontsource/fonts/barlow-semi-condensed@latest/latin-600-normal.woff2) format('woff2');
+	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+:root {
+	/*Primary*/
+	--moderate-violet: hsl(263, 55%, 52%);
+	--very-dark-grayish-blue: hsl(217, 19%, 35%);
+	--very-dark-blackish-blue: hsl(219, 29%, 14%);
+
+	/*Neutral*/
+	--light-gray: hsl(0, 0%, 81%);
+	--light-grayish-blue: hsl(210, 46%, 95%);
+}
+h4 {
+	font-weight: 600;
+}
+p {
+	font-weight: 500;
+}
+.bg-violet {
+	background-color: var(--moderate-violet);
+}
+.bg-d-g-blue {
+	background-color: var(--very-dark-grayish-blue);
+}
+.bg-d-b-blue {
+	background-color: var(--very-dark-blackish-blue);
+}
+.clr-light-g {
+	color: var(--light-gray);
+}
+.clr-light-g-blue {
+	color: var(--light-grayish-blue);
+}
+
+body {
+	font-family: 'Barlow Semi Condensed';
+	background-color: var(--light-grayish-blue);
+}
+
+.col:first-of-type .box {
+	background-image: url('../images/bg-pattern-quotation.svg');
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+.box img {
+	width: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
