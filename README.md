@@ -8,7 +8,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
   - [The challenge](#the-challenge)
 - [My process](#my-process)
   - [Built with](#built-with)
-
+  - [Useful resources](#useful-resources)
 
 ## Overview
 
@@ -27,3 +27,6 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 - [Bootstrap](https://getbootstrap.com/)
+
+### Useful resources
+[Bootstrap combining rows (rowspan)](https://stackoverflow.com/questions/16351404/bootstrap-combining-rows-rowspan) - Helped me create the layout
