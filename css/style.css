@@ -60,7 +60,8 @@ body {
 	background-position: top right;
 }
 .box img {
-	width: 32px;
+	width: 36px;
+	border-color: hsl(263.7, 76.77%, 69.61%) !important;
 }
 
 
