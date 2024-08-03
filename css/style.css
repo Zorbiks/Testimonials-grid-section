@@ -27,12 +27,6 @@
 	--light-gray: hsl(0, 0%, 81%);
 	--light-grayish-blue: hsl(210, 46%, 95%);
 }
-h4 {
-	font-weight: 600;
-}
-p {
-	font-weight: 500;
-}
 .bg-violet {
 	background-color: var(--moderate-violet);
 }
@@ -48,34 +42,28 @@ p {
 .clr-light-g-blue {
 	color: var(--light-grayish-blue);
 }
+h2 {
+	font-weight: 600;
+	font-size: 21px;
+}
+p {
+	font-size: 13px;
+	font-weight: 500;
+}
 
 body {
 	font-family: 'Barlow Semi Condensed';
 	background-color: var(--light-grayish-blue);
 }
-
-.col:first-of-type .box {
+div.col-xl-8:first-of-type .box {
 	background-image: url('../images/bg-pattern-quotation.svg');
 	background-repeat: no-repeat;
-	background-position: top right;
+	background-position: 85% 0;
 }
 .box img {
 	width: 36px;
 	border-color: hsl(263.7, 76.77%, 69.61%) !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.personal-info > div:last-child {
+	color:  var(--light-gray) !important;
+}
